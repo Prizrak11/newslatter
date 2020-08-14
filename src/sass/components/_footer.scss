@@ -1,0 +1,8 @@
+.footer {
+    background-color: $color-main;
+    bottom: 0;
+    padding: 0.5em 7vw;
+    &__title {
+        color: $color-secun;
+    }
+}

@@ -1,0 +1,16 @@
+mixin brandLogo(extra)
+  .brand-logo(class=extra)
+    h1.brand-logo__title 
+      i.brand-logo__icon(class="fas fa-align-right")
+      span.brand-logo__num.red 19
+      span.brand-logo__num.blue 82 
+      span.brand-logo__text News
+
+mixin mainPageNews(num)
+  .notice-card.imp(id = "data[#{num}].id}")
+    img.notice-card__img(src=`${img}`)
+    div.notice-card__text
+      h3.notice-card__title data[#{num}].title
+      p.notice-card__desc data[#{num}].desc
+      a.notice-card__author(href="#") » data[#{num}].autor
+    

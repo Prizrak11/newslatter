@@ -1,0 +1,33 @@
+.brand-logo {
+    &__title {
+        font-family: $font-title;
+        font-weight: 100;
+        font-size: 3em;
+    }
+    &__num,
+    &__text {
+        font-family: $font-title;
+        font-weight: 100;
+        font-size: 1em;
+    }
+    &__num.red {
+        color: #f62c2a;
+    }
+    &__num.blue {
+        color: #35e2bb;
+    }
+    &__icon {
+        font-size: 0.8em;
+        padding-right: 0.1em;
+    }
+}
+.brand-logo.main {
+    text-align: center;
+    font-size: 1.5em;
+}
+.brand-logo.secun {
+    font-size: 0.8em;
+    &__icon {
+        display: none;
+    }
+}

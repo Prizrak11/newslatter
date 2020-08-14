@@ -1,0 +1,44 @@
+block configuration
+    include config
+include ../includes/mixins.pug
+
+include ./mixins.pug
+include ../includes/data.pug
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title=`1982 | ${pageName}`
+    //FonsAwesome
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css")
+
+  body
+    nav.nav-top
+      .nav-top__container
+        .nav-top__link-container
+          a.nav-top__link(href="#/nosotros") Nosotros
+          a.nav-top__link(href="#/equipo") Equipo
+          a.nav-top__link(href="#contactanos") Contáctanos
+          a.nav-top__link(href="#/unete") Únete
+        .nav-top__app-container
+          a.nav-top__app.hvr-grow-rotate(href=""): i.nav-top__app-icon(class="fab fa-instagram-square")
+          a.nav-top__app.hvr-grow-rotate(href=""): i.nav-top__app-icon(class="fab fa-facebook-square")
+          a.nav-top__app.hvr-grow-rotate(href=""): i.nav-top__app-icon(class="fas fa-podcast")
+      
+    .container#container 
+      +brandLogo('main')
+      .nav-main
+        a.nav-main__option.hvr-bg-totop(href="#/") Inicio
+        a.nav-main__option.hvr-bg-totop(href="#/ingles") Inglés
+        a.nav-main__option.hvr-bg-totop(href="#/entretenimiento") Entretenimiento
+        a.nav-main__option.hvr-bg-totop(href="#/historia") Historia
+        a.nav-main__option.hvr-bg-totop(href="#/extra") Extra
+        a.nav-main__option.hvr-bg-totop(href="#/podcast") Podcast
+        a.nav-main__option.hvr-bg-totop(href="#/chiqui") ChiquiTV
+        a.nav-main__option.hvr-bg-totop(href="#/imagenes") Imágenes
+      block content
+    
+    .footer
+      .footer__title
+        h3 1982 | Instituto Mayeutico

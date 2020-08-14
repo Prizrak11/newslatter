@@ -1,0 +1,41 @@
+extends ../pages/includes/template.pug
+block configuration
+  - pageName = 'Inicio'
+block content
+  .main-newss
+    .main-news__container
+      .main-news__notice.imp
+        .main-news__notice-content
+          h2.main-news__notice-title Ttile generic
+          p.main-news__notice-desc  Corta descripción de los que va a tratar la noticia
+      .main-news__notice.imp
+        .main-news__notice-content
+          h2.main-news__notice-title Titulo de la noticia
+          p.main-news__notice-desc  Corta descripción de los que va a tratar la noticia
+      .main-news__notice.big.imp
+        .main-news__notice-content.big
+          h2.main-news__notice-title Titulo de la noticia
+          p.main-news__notice-desc Corta descripción de los que va a tratar la noticia
+      .main-news__notice.imp
+        .main-news__notice-content
+          h2.main-news__notice-title Titulo de la noticia
+          p.main-news__notice-desc  Corta descripción de los que va a tratar la noticia
+      .main-news__notice.imp
+        .main-news__notice-content
+          h2.main-news__notice-title Titulo de la noticia
+          p.main-news__notice-desc  Corta descripción de los que va a tratar la noticia  
+  .main-content
+    .main-content__last-news
+      h2.main-content__subtitle Ultimas Noticias
+      - const nt1 = random(data.length)
+      +mainPageNews('nt1')
+      - const nt2 = random(data.length)
+      +mainPageNews('nt2')
+      - const nt3 = random(data.length)
+      +mainPageNews('nt3')
+    .main-content__social
+      h2.main-content__subtitle Redes Sociales
+      a.main-content__social-link.web.hvr-grow(href="") <i class="fas fa-globe"></i> Página Web
+      a.main-content__social-link.facebook.hvr-grow(href="") <i class="fab fa-facebook-f"></i> Facebook
+      a.main-content__social-link.instagram.hvr-grow(href="") <i class="fab fa-instagram"></i> Instagram
+      a.main-content__social-link.podcast.hvr-grow(href="") <i class="fas fa-podcast"></i> Podcast

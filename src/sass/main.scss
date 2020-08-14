@@ -1,0 +1,24 @@
+//Normalizer
+@import "/src/sass/normalize";
+//Fonts
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Righteous&display=swap");
+//Variables
+@import "/src/sass/variables";
+//Animations
+@import "/src/sass/animations";
+
+* {
+    font-family: $font-main;
+    box-sizing: border-box;
+    font-size: 2vh;
+}
+
+//Components
+@import "/src/sass/components/container";
+@import "/src/sass/components/nav-top";
+@import "/src/sass/components/title";
+@import "/src/sass/components/nav-main";
+@import "/src/sass/components/main-news";
+@import "/src/sass/components/main-content";
+@import "/src/sass/components/notice-card";
+@import "/src/sass/components/footer";

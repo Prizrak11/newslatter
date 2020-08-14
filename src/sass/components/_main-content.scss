@@ -1,0 +1,51 @@
+.main-content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    &__subtitle {
+        font-size: 1.7em;
+        border-bottom: 1px solid $color-main;
+        display: inline-block;
+        margin: 1.5em 0;
+    }
+    &__social {
+        margin-left: 1em;
+        display: flex;
+        flex-direction: column;
+    }
+    &__social-link {
+        display: flex;
+        align-items: center;
+        background-color: red;
+        color: $color-secun;
+        padding: 1em;
+        margin-bottom: 1em;
+        border-radius: 0.5vw;
+        i {
+            padding-right: 1em;
+            font-size: 1.3em;
+        }
+        &.web {
+            background-color: #0b87b7;
+        }
+        &.facebook {
+            background-color: #314774;
+        }
+        &.podcast {
+            background-color: #a58e7f;
+        }
+        &.instagram {
+            background-image: url("../static/bg_instagram.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        &.hvr-grow {
+            &:hover,
+            &:focus,
+            &:active {
+                -webkit-transform: scale(1.05);
+                transform: scale(1.05);
+            }
+        }
+    }
+}
