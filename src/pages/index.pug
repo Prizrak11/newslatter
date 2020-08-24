@@ -2,40 +2,16 @@ extends ../pages/includes/template.pug
 block configuration
   - pageName = 'Inicio'
 block content
-  .main-newss
-    .main-news__container
-      .main-news__notice.imp
-        .main-news__notice-content
-          h2.main-news__notice-title Ttile generic
-          p.main-news__notice-desc  Corta descripción de los que va a tratar la noticia
-      .main-news__notice.imp
-        .main-news__notice-content
-          h2.main-news__notice-title Titulo de la noticia
-          p.main-news__notice-desc  Corta descripción de los que va a tratar la noticia
-      .main-news__notice.big.imp
-        .main-news__notice-content.big
-          h2.main-news__notice-title Titulo de la noticia
-          p.main-news__notice-desc Corta descripción de los que va a tratar la noticia
-      .main-news__notice.imp
-        .main-news__notice-content
-          h2.main-news__notice-title Titulo de la noticia
-          p.main-news__notice-desc  Corta descripción de los que va a tratar la noticia
-      .main-news__notice.imp
-        .main-news__notice-content
-          h2.main-news__notice-title Titulo de la noticia
-          p.main-news__notice-desc  Corta descripción de los que va a tratar la noticia  
+  .main-news
+    .main-news__container  
   .main-content
     .main-content__last-news
       h2.main-content__subtitle Ultimas Noticias
-      - const nt1 = random(data.length)
-      +mainPageNews('nt1')
-      - const nt2 = random(data.length)
-      +mainPageNews('nt2')
-      - const nt3 = random(data.length)
-      +mainPageNews('nt3')
+      ///////////////////////////////////////////
     .main-content__social
-      h2.main-content__subtitle Redes Sociales
-      a.main-content__social-link.web.hvr-grow(href="") <i class="fas fa-globe"></i> Página Web
-      a.main-content__social-link.facebook.hvr-grow(href="") <i class="fab fa-facebook-f"></i> Facebook
-      a.main-content__social-link.instagram.hvr-grow(href="") <i class="fab fa-instagram"></i> Instagram
-      a.main-content__social-link.podcast.hvr-grow(href="") <i class="fas fa-podcast"></i> Podcast
+      .main-container-wrapper
+        h2.main-content__subtitle Redes Sociales
+        a.main-content__social-link.web.hvr-grow(href="https://institutomayeutico.com/" target="_blank") <i class="fas fa-globe"></i> <span>Página Web</span>
+        a.main-content__social-link.facebook.hvr-grow(href="https://www.facebook.com/ange.maye.35" target="_blank") <i class="fab fa-facebook-f"></i> <span>Facebook</span>
+        a.main-content__social-link.instagram.hvr-grow(href="https://www.instagram.com/1982_im_/?hl=es-la" target="_blank") <i class="fab fa-instagram"></i> <span>Instagram</span>
+        a.main-content__social-link.podcast.hvr-grow(href="https://anchor.fm/1982-radio" target="_blank") <i class="fas fa-podcast"></i> <span>Podcast</span>

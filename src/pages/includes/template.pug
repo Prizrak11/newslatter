@@ -1,9 +1,8 @@
 block configuration
-    include config
+    include ../includes/config.pug
 include ../includes/mixins.pug
 
 include ./mixins.pug
-include ../includes/data.pug
 <!DOCTYPE html>
 html(lang="en")
   head
@@ -13,7 +12,7 @@ html(lang="en")
     //FonsAwesome
     link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css")
 
-  body
+  body(style="overflow-x:hideen")
     nav.nav-top
       .nav-top__container
         .nav-top__link-container
@@ -22,13 +21,14 @@ html(lang="en")
           a.nav-top__link(href="#contactanos") Contáctanos
           a.nav-top__link(href="#/unete") Únete
         .nav-top__app-container
-          a.nav-top__app.hvr-grow-rotate(href=""): i.nav-top__app-icon(class="fab fa-instagram-square")
-          a.nav-top__app.hvr-grow-rotate(href=""): i.nav-top__app-icon(class="fab fa-facebook-square")
-          a.nav-top__app.hvr-grow-rotate(href=""): i.nav-top__app-icon(class="fas fa-podcast")
+          a.nav-top__app.hvr-grow-rotate(href="https://www.instagram.com/1982_im_/?hl=es-la" target="_blank"): i.nav-top__app-icon(class="fab fa-instagram-square")
+          a.nav-top__app.hvr-grow-rotate(href="https://www.facebook.com/ange.maye.35" target="_blank"): i.nav-top__app-icon(class="fab fa-facebook-square")
+          a.nav-top__app.hvr-grow-rotate(href="https://anchor.fm/1982-radio" target="_blank"): i.nav-top__app-icon(class="fas fa-podcast")
       
     .container#container 
       +brandLogo('main')
-      .nav-main
+      i.fas.fa-bars.menu-icon.hvr-bg-glow#menu-icon
+      .nav-main.hidden
         a.nav-main__option.hvr-bg-totop(href="#/") Inicio
         a.nav-main__option.hvr-bg-totop(href="#/ingles") Inglés
         a.nav-main__option.hvr-bg-totop(href="#/entretenimiento") Entretenimiento
@@ -36,9 +36,11 @@ html(lang="en")
         a.nav-main__option.hvr-bg-totop(href="#/extra") Extra
         a.nav-main__option.hvr-bg-totop(href="#/podcast") Podcast
         a.nav-main__option.hvr-bg-totop(href="#/chiqui") ChiquiTV
-        a.nav-main__option.hvr-bg-totop(href="#/imagenes") Imágenes
+        a.nav-main__option.hvr-bg-totop(href="#/imagenes") Galería
       block content
     
     .footer
       .footer__title
         h3 1982 | Instituto Mayeutico
+
+    script(src="https://unpkg.com/scrollreveal")

@@ -31,10 +31,10 @@ module.exports = {
       {
         test: /\.pug$/,
         exclude: /(includes|include|mixins)/,
-        loader: ['html-loader', 'pug-html-loader'],
+        loaders: ['html-loader', 'pug-html-loader'],
       },
       {
-        test: /\.(jpg|png|gif|svg)$/,
+        test: /\.(jpg|png|gif|svg|jpeg)$/,
         use: [
           {
             loader: 'file-loader',

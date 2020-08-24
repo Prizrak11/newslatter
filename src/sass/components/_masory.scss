@@ -1,0 +1,34 @@
+.masory-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em 0;
+    //Create four equal columns that sits next to each other
+    &__column {
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 0.3em;
+        img {
+            width: 100%;
+            margin-top: 0.6em;
+            vertical-align: middle;
+            border-radius: 0.7vw;
+            cursor: pointer;
+        }
+    }
+}
+@media (max-width: 900px) {
+    .masory-row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2em 0;
+    }
+    .masory-row__column {
+        flex: 50%;
+        max-width: 48%;
+        align-content: center;
+        justify-items: center;
+        img {
+            border-radius: 1.5vw;
+        }
+    }
+}

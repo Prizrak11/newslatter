@@ -1,7 +1,7 @@
 .nav-main {
     position: sticky;
     top: -0.1vh;
-    background-color: #fff;
+    background-color: #fdfdfd;
     z-index: 100;
     font-size: 0.9em;
     text-align: center;
@@ -12,4 +12,7 @@
         padding: 1em;
         color: $color-main;
     }
+}
+#menu-icon {
+    display: none;
 }

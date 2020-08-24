@@ -2,4 +2,22 @@ extends ../pages/includes/template.pug
 block configuration
   - pageName = 'Noticia'
 block content
-  h1 Noticia
+  .main-content
+    .main-content__notice
+        .notice#notice
+          img.notice__cover
+          h1.notice__title
+          .notice__content
+          p.notice__author
+        h2.main-content__subtitle Otras Noticias
+    .main-content__social
+      .main-container-wrapper
+        h2.main-content__subtitle Redes Sociales
+        a.main-content__social-link.web.hvr-grow(href="https://institutomayeutico.com/" target="_blank") <i class="fas fa-globe"></i> <span>Página Web</span>
+        a.main-content__social-link.facebook.hvr-grow(href="https://www.facebook.com/ange.maye.35" target="_blank") <i class="fab fa-facebook-f"></i><span> Facebook</span>
+        a.main-content__social-link.instagram.hvr-grow(href="https://www.instagram.com/1982_im_/?hl=es-la" target="_blank") <i class="fab fa-instagram"></i><span> Instagram</span>
+        a.main-content__social-link.podcast.hvr-grow(href="https://anchor.fm/1982-radio" target="_blank") <i class="fas fa-podcast"></i><span> Podcast</span>  
+      .main-container-wrapper2
+        h2.main-content__subtitle Noticias Similares
+        p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem earum et tempore sapiente excepturi, autem consectetur fuga voluptate, nemo itaque voluptatibus recusandae culpa qui beatae architecto perspiciatis temporibus molestiae nihil eveniet assumenda perferendis illum.
+  
