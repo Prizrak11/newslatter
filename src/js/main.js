@@ -42,7 +42,6 @@ import "core-js/stable";
 import "regenerator-runtime/runtime";
 //JavaScript
 import { router } from '../js/router/routes'
-import './reveal'
 
 
 window.onload = () => {

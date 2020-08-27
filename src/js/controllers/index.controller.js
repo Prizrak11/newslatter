@@ -8,10 +8,10 @@ export const Home = () => {
   document.body.innerHTML = require(`../../pages/index.pug`)
   stickybits(document.querySelector('.main-container-wrapper'), { stickyBitStickyOffset: 50 })
   createThumb(document, '.main-news', data[random(data.length, data.length - 1)], 'big')
-  createThumb(document, '.main-news', data[random(data.length)])
-  createThumb(document, '.main-news', data[random(data.length)])
-  createThumb(document, '.main-news', data[random(data.length)])
-  createThumb(document, '.main-news', data[random(data.length)])
+  createThumb(document, '.main-news', data[random(data.length, data.length - 2)])
+  createThumb(document, '.main-news', data[random(data.length, data.length - 3)])
+  createThumb(document, '.main-news', data[random(data.length, data.length - 4)])
+  createThumb(document, '.main-news', data[random(data.length, data.length - 5)])
   createCard(document, '.main-content__last-news', data[random(data.length)])
   createCard(document, '.main-content__last-news', data[random(data.length)])
   createCard(document, '.main-content__last-news', data[random(data.length)])
@@ -24,7 +24,6 @@ export const Home = () => {
   ScrollReveal().reveal('a.main-content__social-link', { delay: "200", distance: "5em", origin: "top" })
   const elements = document.querySelectorAll('[class*="notice"]')
   elements.forEach(e => e.addEventListener('click', () => {
-    console.log(elements)
     window.location.hash = `#/notice`
     sessionStorage.setItem('current', e.id)
   }))

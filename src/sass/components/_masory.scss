@@ -20,13 +20,14 @@
     .masory-row {
         display: flex;
         flex-wrap: wrap;
-        padding: 2em 0;
+        padding: 2em 1%;
+        align-content: center;
+        justify-items: center;
+        justify-content: center;
     }
     .masory-row__column {
         flex: 50%;
         max-width: 48%;
-        align-content: center;
-        justify-items: center;
         img {
             border-radius: 1.5vw;
         }
