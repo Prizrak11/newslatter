@@ -22,7 +22,7 @@ export const Home = () => {
   ScrollReveal().reveal('.main-news__notice-content', { delay: "200", distance: "5em", origin: "bottom" })
   ScrollReveal().reveal('.notice-card', { delay: "200", distance: "5em", origin: "bottom" })
   ScrollReveal().reveal('a.main-content__social-link', { delay: "200", distance: "5em", origin: "top" })
-  const elements = document.querySelectorAll('[class*="notice"]')
+  const elements = document.querySelectorAll('[class*="notice"].imp')
   elements.forEach(e => e.addEventListener('click', () => {
     window.location.hash = `#/notice`
     sessionStorage.setItem('current', e.id)

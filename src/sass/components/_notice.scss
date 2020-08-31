@@ -1,12 +1,37 @@
 .notice {
     &__cover {
-        margin: 3em 20%;
+        margin: 2em 20%;
         width: 60%;
         height: 50vh;
         border-radius: 1.2vw;
     }
+    &__tags {
+        list-style: none;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 1em;
+    }
+    &__tag {
+        margin-right: 0.5em;
+        padding: 0.5em 1em;
+        border-radius: 5vw;
+        text-transform: capitalize;
+        &.ingles {
+            background-color: rgba(48, 195, 231, 0.25);
+        }
+        &.historia {
+            background-color: rgba(231, 146, 48, 0.25);
+        }
+        &.entretenimiento {
+            background-color: rgba(231, 48, 48, 0.25);
+        }
+        &.extra {
+            background-color: rgba(143, 48, 231, 0.25);
+        }
+    }
     &__title {
         font-size: 2.5em;
+        margin-top: 1.5em;
     }
     &__date {
         margin-top: 0;
@@ -18,15 +43,25 @@
         flex-direction: column;
         .text {
             margin-top: 1.7em;
-            font-size: 1.1em;
-            font-weight: 500;
+            font-size: 1.15em;
             line-height: 1.8em;
+            font-weight: 500;
         }
         .img {
             align-self: center;
             height: 20vw;
             &.small {
                 height: 12vw;
+            }
+        }
+        .subtitle {
+            font-size: 1.7em;
+        }
+        .list {
+            li {
+                font-size: 1.15em;
+                line-height: 1.8em;
+                font-weight: 500;
             }
         }
     }

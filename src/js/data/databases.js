@@ -1,7 +1,7 @@
 export const data = [
   {
     id: '0001',
-    type: 'ingles, entretenimiento, historia',
+    type: ['ingles', 'entretenimiento', 'historia'],
     title: 'The Rhythm of the Hip, the lyrics of the Hop',
     cover: 'static/nt_001_cover.jpg',
     autor: 'Maria Fernanda Centeno',
@@ -19,7 +19,7 @@ export const data = [
   },
   {
     id: '0002',
-    type: 'entretenimiento, historia,extra',
+    type: ['entretenimiento', 'historia', 'extra'],
     cover: 'static/nt_002_cover.jpeg',
     title: 'La tecnología salvavidas para la educación',
     autor: 'Juan Camilo Lozano Rodríguez',
@@ -34,7 +34,7 @@ export const data = [
   },
   {
     id: '0003',
-    type: 'ingles, entretenimiento, historia',
+    type: ['entretenimiento', 'historia'],
     cover: 'static/nt_003_cover.jpg',
     title: '¡Inmersión! un paso para el futuro',
     autor: 'Juan Felipe Saavedra Niño',
@@ -50,7 +50,7 @@ export const data = [
   },
   {
     id: '0004',
-    type: 'ingles, entretenimiento, historia',
+    type: ['entretenimiento', 'historia'],
     cover: 'static/nt_004_cover.jpg',
     title: 'La emergencia sanitaria y el cambio en las prácticas estudiantiles',
     autor: 'Anonimo',
@@ -66,39 +66,49 @@ export const data = [
   },
   {
     id: '0005',
-    type: 'extra',
-    cover: 'https://picsum.photos/400',
-    title: 'Esta es una noticia de prueba',
-    autor: 'Autor de prueba',
+    type: ['extra'],
+    cover: '../static/nt_005_cover.jpg',
+    title: 'Metodología en el area de español',
+    autor: 'Grado transición',
     desc: 'Esta es una descripción de ejemplo para completar la información y se entienda el contexto del que se habla',
     content: `
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <img class = 'img' src ="../static/bg_instagram.jpg">
+    <p class = "text">En el proceso de enseñanza con los estudiantes del grado transición al inicio de la pandemia, fue la estrategia de realizar dictados diarios de una frase y al mes aumentamos a un párrafo no mayor a 8 renglones, utilizando buena caligrafía,ortografía, manejo de espacios y signos de puntuación, dado que estos temas fueron explicados por la docente; evidenciando avances significativos de comprensión y creación de textos cortos, donde el estudiante lee lo que escribe plasmándolo en un dibujo, generando en ellos la creatividad e imaginación; aprendiendo a escribir y a concentrarse. </p>
+    <p class = "text">Complementando la dinámica de los dictados, se inicio con la actividad de lectura; donde el estudiante escoge alguno de sus dictados y deja la evidencia en video; con el fin de que ellos tengan buen tono de voz, vocalización y comprensión al momento de leer.</p>
+    <p class = "text">Los beneficios de los dictados diarios son favorables para la enseñanza de la ortografía, exigiendo una percepción visual, auditiva, donde la atención y la memoria ocupa un papel muy importante; por otro lado, ayuda a identificar las palabras desconocidas explicando su significado; esto genera la adquisición de un nuevo léxico. Este es un proceso muy útil, practico y fundamental en el que el estudiante escucha, comprende y escribe.</p>
+    <h2 class = "subtitle">¿Cómo realizar dictados?</h2>
+    <ul class ="list">
+      <li>Recordarle las normas ortográficas que vamos a trabajar.</li>
+      <li>Leer la oración.</li>
+      <li>El niño o la niña la tiene que repetir.</li>
+      <li>Contar el número de palabras.</li>
+      <li>Empezar a escribir.</li>
+    </ul>
+    <p class = "text">Si la oración es demasiado larga, la podemos dividir a la hora de dictársela. Si el niño o la niña tiene alguna duda de cómo se escribe una palabra, se la resolveremos.</p>
+    <p class = "text">En conclusión, es un material de refuerzo que nos ayuda a trabajar en las diferentes áreas del conocimiento; permitiéndole al docente sacar estadísticas precisas del rendimiento y ayudando a valorar los aspectos ortográficos que mas les cuesta asimilar para así poder trabajar en ellos. Hay que tener presente de escoger textos de acuerdo con el nivel de los estudiantes, debe ser un texto breve e interesante, dictar a una velocidad adecuada y hacer una nueva lectura para la verificación y comprensión del texto.</p>
+    <img class = 'img' src ="../static/nt_005_extra.jpg">
     `
   },
   {
     id: '0006',
-    type: 'extra',
+    type: ['extra', 'entretenimiento'],
     cover: 'https://picsum.photos/400',
-    title: 'Esta es una noticia de prueba',
-    autor: 'Autor de prueba',
+    title: 'Educación física, tiempo libre y cuarentena',
+    autor: 'Diana lopez',
     desc: 'Esta es una descripción de ejemplo para completar la información y se entienda el contexto del que se habla',
     content: `
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <img class = 'img' src ="../static/bg_instagram.jpg">
+    <p class = "text">Desde inicios de la pandemia nuestras vidas cambiaron, tanto en el ámbito social como en el educativo es por eso que desde inicio de la cuarentena los educadores nos tuvimos que reinventar para poder acceder a los distintos grupos poblacionales, entre los cambios más grandes que se vieron reflejados se encuentra el área de educación física y los proyectos que allí se desarrollan.</p>
+    <p class = "text">Es por eso que el colegio Instituto Mayéutico desde la asignatura de educación física y el proyecto tiempo libre ha estado realizando diferentes procesos entre los cuales encontramos actividades acompañadas desde el IDRD (instituto distrital de recreación y deportes) con su programa campamentos juveniles el cual nos ha permitido interactuar de forma virtual con la población estudiantil, en estos espacios se han realizado actividades de coordinación viso manual, coordinación general, creatividad, cultura general entre otros.</p>
+    <img class = 'img' src ="../static/nt_006_extra.jpg">
+    <p class = "text">A demás Tuvimos la oportunidad de compartir temáticas de interés educativo como social, entre los cuales contamos con una parte interactiva donde se realizaron distintos juegos online que fomentan la sana competición, los valores y la comunicación entre los estudiantes.</p>
+    <p class = "text">En el eje social se realizaron conferencias a cerca del debido lavado de manos y la forma adecuada de desinfectar sus artículos personales (llaves, celulares, zapatos) entre otros.</p>
+    <p class = "text">Dando continuidad a estos procesos y pensando en los diferentes entes de la comunidad educativa de la institución se realizó un bingo virtual con la participación de la comunidad educativa en general, para realizar esta actividad los padres de familia realizaron su tabla para jugar con anterioridad, con este espectacular juegos se entregaron 2 premios uno en grado cuarto y el otro en grado tercero, los cuales fueron entregados al día siguiente en la puerta de las casas.</p>
+    <p class = "text">Adicionalmente en las clases se han creado nuevos espacios que permiten a nuestros estudiantes crear habilidades para la vida entre los cuales se han realizado clases de cocina donde los estudiantes experimentan sus habilidades culinarias.</p>
+    <img class = 'img' src ="../static/nt_006_extra2.jpg">
     `
   },
   {
     id: '0007',
-    type: 'extra',
+    type: ['extra'],
     cover: 'https://picsum.photos/400',
     title: 'Esta es una noticia de prueba',
     autor: 'Autor de prueba',
@@ -114,7 +124,7 @@ export const data = [
   },
   {
     id: '0008',
-    type: 'extra',
+    type: ['extra'],
     cover: 'https://picsum.photos/400',
     title: 'Esta es una noticia de prueba',
     autor: 'Autor de prueba',
@@ -130,7 +140,7 @@ export const data = [
   },
   {
     id: '0009',
-    type: 'extra',
+    type: ['extra'],
     cover: 'https://picsum.photos/400',
     title: 'Esta es una noticia de prueba',
     autor: 'Autor de prueba',
@@ -146,7 +156,7 @@ export const data = [
   },
   {
     id: '0010',
-    type: 'extra',
+    type: ['extra'],
     cover: 'https://picsum.photos/400',
     title: 'Esta es una noticia de prueba',
     autor: 'Autor de prueba',
@@ -162,7 +172,7 @@ export const data = [
   },
   {
     id: '0011',
-    type: 'extra',
+    type: ['extra'],
     cover: 'https://picsum.photos/400',
     title: 'Esta es una noticia de prueba',
     autor: 'Autor de prueba',
@@ -178,7 +188,7 @@ export const data = [
   },
   {
     id: '0012',
-    type: 'extra',
+    type: ['extra'],
     cover: 'https://picsum.photos/400',
     title: 'Esta es una noticia de prueba',
     autor: 'Autor de prueba',
@@ -194,7 +204,7 @@ export const data = [
   },
   {
     id: '0013',
-    type: 'extra',
+    type: ['extra'],
     cover: 'https://picsum.photos/400',
     title: 'Esta es una noticia de prueba',
     autor: 'Autor de prueba',
@@ -210,7 +220,7 @@ export const data = [
   },
   {
     id: '0014',
-    type: 'extra',
+    type: ['extra'],
     cover: 'https://picsum.photos/400',
     title: 'Esta es una noticia de prueba',
     autor: 'Autor de prueba',
@@ -226,7 +236,7 @@ export const data = [
   },
   {
     id: '0015',
-    type: 'extra',
+    type: ['extra'],
     cover: 'https://picsum.photos/400',
     title: 'Esta es una noticia de prueba',
     autor: 'Autor de prueba',
@@ -242,7 +252,7 @@ export const data = [
   },
   {
     id: '0016',
-    type: 'extra',
+    type: ['extra'],
     cover: 'https://picsum.photos/400',
     title: 'Esta es una noticia de prueba',
     autor: 'Autor de prueba',
@@ -258,7 +268,7 @@ export const data = [
   },
   {
     id: '0017',
-    type: 'extra',
+    type: ['extra'],
     cover: 'https://picsum.photos/400',
     title: 'Esta es una noticia de prueba',
     autor: 'Autor de prueba',
@@ -274,7 +284,7 @@ export const data = [
   },
   {
     id: '0018',
-    type: 'extra',
+    type: ['extra'],
     cover: 'https://picsum.photos/400',
     title: 'Esta es una noticia de prueba',
     autor: 'Autor de prueba',
