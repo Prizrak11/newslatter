@@ -1,7 +1,7 @@
 export const data = [
   {
     id: '0001',
-    type: ['ingles', 'entretenimiento', 'historia'],
+    type: ['ingles', 'entretenimiento'],
     title: 'The Rhythm of the Hip, the lyrics of the Hop',
     cover: 'static/nt_001_cover.jpg',
     autor: 'Maria Fernanda Centeno',
@@ -19,7 +19,7 @@ export const data = [
   },
   {
     id: '0002',
-    type: ['entretenimiento', 'historia', 'extra'],
+    type: ['entretenimiento', 'extra'],
     cover: 'static/nt_002_cover.jpeg',
     title: 'La tecnología salvavidas para la educación',
     autor: 'Juan Camilo Lozano Rodríguez',
@@ -34,7 +34,7 @@ export const data = [
   },
   {
     id: '0003',
-    type: ['entretenimiento', 'historia'],
+    type: ['entretenimiento', 'academico'],
     cover: 'static/nt_003_cover.jpg',
     title: '¡Inmersión! un paso para el futuro',
     autor: 'Juan Felipe Saavedra Niño',
@@ -50,7 +50,7 @@ export const data = [
   },
   {
     id: '0004',
-    type: ['entretenimiento', 'historia'],
+    type: ['entretenimiento', 'academico'],
     cover: 'static/nt_004_cover.jpg',
     title: 'La emergencia sanitaria y el cambio en las prácticas estudiantiles',
     autor: 'Anonimo',
@@ -66,7 +66,7 @@ export const data = [
   },
   {
     id: '0005',
-    type: ['extra'],
+    type: ['extra', 'academico'],
     cover: '../static/nt_005_cover.jpg',
     title: 'Metodología en el area de español',
     autor: 'Grado transición',
@@ -91,7 +91,7 @@ export const data = [
   {
     id: '0006',
     type: ['extra', 'entretenimiento'],
-    cover: 'https://picsum.photos/400',
+    cover: '../static/nt_006_cover.jpg',
     title: 'Educación física, tiempo libre y cuarentena',
     autor: 'Diana lopez',
     desc: 'Esta es una descripción de ejemplo para completar la información y se entienda el contexto del que se habla',
@@ -108,194 +108,90 @@ export const data = [
   },
   {
     id: '0007',
-    type: ['extra'],
-    cover: 'https://picsum.photos/400',
-    title: 'Esta es una noticia de prueba',
-    autor: 'Autor de prueba',
+    type: ['academico'],
+    cover: '../static/nt_007_cover.jpg',
+    title: 'La escuela para padres',
+    autor: 'Psicología',
     desc: 'Esta es una descripción de ejemplo para completar la información y se entienda el contexto del que se habla',
     content: `
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <img class = 'img' src ="../static/bg_instagram.jpg">
+    <p class = "text">La escuela de padres es una herramienta diseñada para generar interacción entre la familia y el colegio, ya que estas dos comunidades están inmersas en los contextos del estudiante y buscan el desarrollo integral del individuo.</p>
+    <p class = "text">En este sentido, esta escuela está orientada hacia los padres como lugar de encuentro donde se da el intercambio de experiencias y reflexiones; en el cual se proveen métodos y técnicas para corregir los malos hábitos (autoeducación) y generar herramientas que mejoren la calidad de la educación familiar, contribuyendo así en la crianza y el desarrollo de cada persona.</p>
+    <p class = "text">En la escuela de padres del Instituto Mayéutico, se han generado espacios de acuerdo con las necesidades de los estudiantes y los padres, donde no solo se abordan distintos temas, como el manejo de las emociones, las estrategias de afrontamiento, la autonomía, el acompañamiento de los alumnos, el manejo adecuado que debe dar a las redes sociales; sino también la importancia de reconocer que, como padres es necesario desahogar esas cargas emocional que muchas veces se crean y se mantienen al asumir el rol paternal y maternal que desempeñan, desprendiéndose de sus necesidades personales y olvidando generar espacios para disfrutar, desarrollar sus emociones, reconociendo que también necesitan desahogarse y reeducarse puesto que somos seres que estamos en constante cambio.</p>
+    <p class = "text">Por lo cual es necesario que como tutores participemos de estas actividades y espacios activamente, los cuales se generan para integrar a la comunidad y forjar un crecimiento personal dando como resultado bienestar tanto personal como al entorno.</p>
     `
   },
   {
     id: '0008',
-    type: ['extra'],
-    cover: 'https://picsum.photos/400',
-    title: 'Esta es una noticia de prueba',
-    autor: 'Autor de prueba',
+    type: ['ingles'],
+    cover: '../static/nt_008_cover.jpg',
+    title: 'UFLs (Unidentified Flying Languages)',
+    autor: 'Anonimo',
     desc: 'Esta es una descripción de ejemplo para completar la información y se entienda el contexto del que se habla',
     content: `
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <img class = 'img' src ="../static/bg_instagram.jpg">
+    <p class = "text">As you know September is coming and with it we have an important celebration. Maybe you are thinking about our Colombian celebration of  “Love and friendship” but we have another celebration more important to this, it is our ENGLISH DAY at our Instituto Mayéutico . This is an important celebration to the school. Through the years this important celebration has showed the process of the foreign language acquisition, in this case, English language. In this year as the others, primary school and secondary school are working shoulder to shoulder answering an important questions nowadays, How to care OUR Colombian environment? It will be interesting because the Mayéutico aware students going to give us some solutions and comments to this question trough variety presentations, videos, reflections, advices, video games, GrenTubers and social media experiences. </p>
+    <p class = "text">Mayeutico students want inviting you to enjoy this amazing day, how? You are going to learn the significance of the Colombian fauna and flora; sometimes, we as Colombians do not recognize our natural, cultural richness, and even the multilingual richness with the ancestral indigenous culture, taking into account that we are learning English as a foreign language we need to know that in Colombia we have more than twenty indigenous languages. One of the objectives to this English Day is identify that use of English is essential, also the Spanish as maternal language but we HAVE to recognize OUR indigenous native languages. </p>
+    <p class = "text">To finish a trivia time! Do you know… How many oceans are in Colombia? one more difficult question, do you how many natural parks or nature reserves Colombia has? And the last question just for humans, What would you do if some UFOs visit us?</p>
     `
   },
   {
     id: '0009',
-    type: ['extra'],
-    cover: 'https://picsum.photos/400',
-    title: 'Esta es una noticia de prueba',
-    autor: 'Autor de prueba',
+    type: ['ingles'],
+    cover: '../static/nt_009_cover.jpg',
+    title: 'Bitácora cosmica y tecnológica',
+    autor: 'Miss Karen',
     desc: 'Esta es una descripción de ejemplo para completar la información y se entienda el contexto del que se habla',
     content: `
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <img class = 'img' src ="../static/bg_instagram.jpg">
+    <p class = "text">Curiosity is a characteristic of every being who has not let his inner child die, even more so when it has been enjoyed from a children of space of knowledge in science and technology; for this reason today I want to invite you to continue awakening your curiosity through places and virtual spaces in which curiosity gives way to exploration and discovery. Welcome to this cosmic-techno-literary corner.</p>
+    <p class = "text">La curiosidad es una característica propia de todo ser que no ha dejado morir su niño interior, aun más cuando se ha disfrutado desde muy pequeños de espacios de conocimiento en ciencia y tecnología; por tal razón hoy quiero invitarlos a seguir despertando su curiosidad a través de lugares y espacios virtuales en los que la curiosidad da paso a la exploración y el descubrimiento. Bienvenidos a este rincón cósmico-tecno- literario. </p>
+    <p class = "text">The universe is a very special subject for all of us, it has been so interesting that many artists have made great films showing curiosities, discoveries and fantasy worlds. Do we wonder if those mutes will be real? I have collected some data that you can find in the link I share below.</p>
+    <p class = "text">El universo es un tema muy especial para todos nosotros, ha sido tan interesante que muchos artistas han realizado grandes películas mostrando curiosidades, descubrimientos y mundos de fantasía. ¿Nos preguntamos si esos mudos serán reales?  He recogido algunos datos para que aprendamos juntos palabras en inglés referidas al universo que tanto nos gusta que puedes encontrar en el link que te comparto a continuación. </p>
+    <img class = 'img' src ="../static/nt_009_extra.jpg">
+    <p class = "text">¿Sabías que Plutón fue descubierto hace 88 años y qué su extensión es mucho más pequeña que la de la Tierra o la de la Luna? Para saber más cosas relacionadas con el espacio (y disfrutar de Star Wars sin subtítulos), es importante conocer el vocabulario bilingüe relacionado con el espacio. A continuación, encontrarás las palabras para denominar los planetas en inglés y otros fenómenos espaciales:</p>
+    <ul class ="list">
+      <li>Mercury – Mercurio</li>
+      <li>Venus – Venus</li>
+      <li>Earth – Tierra</li>
+      <li>Mars – Marte</li>
+      <li>Jupiter – Júpiter</li>
+      <li>Saturn – Saturno</li>
+      <li>Uranus – Urano</li>
+      <li>Neptune – Neptuno</li>
+    </ul>
+    <p class = "text">Finally, I invite you to explore the page of the Nasa kids club where you will find a cute character called NEBULOSA, in this link you will find all the children’s and youth clubs around the planet. I invite you to visit!!</p>
+    <a href="https://www.nasa.gov/kidsclub/index.html" target="_blank"> Click para ir al club! :D
+    <img class = 'img' src ="../static/nt_009_extra2.jpg">
     `
   },
   {
     id: '0010',
-    type: ['extra'],
-    cover: 'https://picsum.photos/400',
-    title: 'Esta es una noticia de prueba',
-    autor: 'Autor de prueba',
+    type: ['extra', 'entretenimiento'],
+    cover: '../static/nt_010_cover.jpg',
+    title: 'Un día de nueva normalidad',
+    autor: 'Laila Diab',
     desc: 'Esta es una descripción de ejemplo para completar la información y se entienda el contexto del que se habla',
     content: `
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <img class = 'img' src ="../static/bg_instagram.jpg">
+    <p class = "text">Esperaba este espacio para escribir y manisfestar inquietudes que muchas veces rondan nuestra mente en el ejercicio de esta nueva normalidad. Nos volvimos personas de costumbres que deben aceptar nuevos cambios, unos significativos como aislarnos del circulo social en el cual compartiamos a diario y que ya era rutina; ahora valoramos más esos momentos que se recuerdan con nostalgia. Muchas veces renegabamos del porque los trancones, porque tantas cosas por hacer, solucionar situaciones del momento como peleas de parejas, el porte de uniforme, eventos propios de cada área; nunca pensamos, ni dimensionamos lo que esta pandemia nos ocasionaria y que veiamos tan lejana como si no nos tocará o si fueramos inmunes y vienen a mi recuerdos de pequeñas discusiones frente a diferentes temas, risas,dejando eso de lado y aprender muchas cosas en el dia a dia donde con gran sorpresa descubrimos talentos y fortalecimos otros. </p>
+    <p class = "text">Me piden que este aun más documentada cuando dicto mis clases, que acompañe a los estudiantes y evidencie dificultades, que atienda y resuelva inquietudes, y aceptar esta nueva normalidad donde se vuelve lo privado, publico; crear nuevas normas en casa para no interferir con la dinámica de casa, el salir  restringuidamente y con unos protocolos de seguridad hace que todo gire y te vuelvas más reacio al cambio. Se extrañan los viajes en trasmilenio, las anécdotas e historias, el sortear las afectaciones de compartir la cancha, los turnos de acompañamiento y otros.</p>
+    <p class = "text">La nueva normalidad es tan dificil de aceptar y comprender cuando lo que era rutina lo extrañas y cuando dejas de ver a tus amigos, de reírte con más frecuencia, recordar eventos que se alcanzaron a  hacer; es cuando buscas por todos los medios de seguir en contacto, de recordar y entender que las cosas surgen por algo. Es momento de seguirnos aceptando y tolerando las diferencias que tenemos desde casa, con nuestra familia donde se valora lo que cada uno hace y evidenciamos que nos volvimos hormigas trabajando  y atendiendo múltiples cosas. Revisando unos documentos encontré recuerdos que evocaron otros donde brotaron sentimientos de nostalgia, alegría y porque no esos debates por el no seguir normas y justificarse por todo.</p>
+    <img class = 'img' src ="../static/nt_010_extra.jpg">
+    <p class = "text">Es aquí donde hay que aprender a respetar las normas y no acomodarlas para nuestro beneficio según el grado de conveniencia ya que protegernos es indispensable porque se dice popularmente: “los médicos también se mueren” para hacer alusión de la auto protección y son ellos precisamente quienes mayor ejemplo nos dan día a día con la pandemia, no nos cuesta mucho usar adecuadamente el tapabocas, el lavado de manos, etc. Cuidarnos desde casa es la mejor opción para un reencuentro próximo donde se cuenten todas las cosas buenas y malas que aprendimos y que aprendemos diariamente; es modificar y ajustarme a la nueva normalidad.</p>
+    <p class = "text">La vida nos apuesto a prueba, por eso es recordar que somos seres humanos que TODOS NOS AFECTAMOS, pero también es importante cambiar para mejorar bajo  el respeto que nos han inculcado desde casa y que proyectamos diariamente. Cada vez que nos estemos mal, hablar es la mejor solución; que seamos gestores de cambios significativos y positivos. Estamos cansados de cosas negativas entonces creemos IDEAS NOVEDADOSAS Y VIABLES. ¿Qué has aprendido en este tiempo? ¿Qué has cambiado como ser humano que te haga sentir orgulloso? ¿Cuáles son tus metas, en esta nueva normalidad?. Disfruta tu nueva normalidad y házmelo saber en clases. Cuenta conmigo.</p>
     `
   },
   {
     id: '0011',
-    type: ['extra'],
-    cover: 'https://picsum.photos/400',
-    title: 'Esta es una noticia de prueba',
-    autor: 'Autor de prueba',
+    type: ['extra', 'academico'],
+    cover: '../static/nt_011_cover.jpg',
+    title: 'Jacinta en el cole',
+    autor: 'Jacinta mayeutista',
     desc: 'Esta es una descripción de ejemplo para completar la información y se entienda el contexto del que se habla',
     content: `
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <img class = 'img' src ="../static/bg_instagram.jpg">
-    `
-  },
-  {
-    id: '0012',
-    type: ['extra'],
-    cover: 'https://picsum.photos/400',
-    title: 'Esta es una noticia de prueba',
-    autor: 'Autor de prueba',
-    desc: 'Esta es una descripción de ejemplo para completar la información y se entienda el contexto del que se habla',
-    content: `
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <img class = 'img' src ="../static/bg_instagram.jpg">
-    `
-  },
-  {
-    id: '0013',
-    type: ['extra'],
-    cover: 'https://picsum.photos/400',
-    title: 'Esta es una noticia de prueba',
-    autor: 'Autor de prueba',
-    desc: 'Esta es una descripción de ejemplo para completar la información y se entienda el contexto del que se habla',
-    content: `
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <img class = 'img' src ="../static/bg_instagram.jpg">
-    `
-  },
-  {
-    id: '0014',
-    type: ['extra'],
-    cover: 'https://picsum.photos/400',
-    title: 'Esta es una noticia de prueba',
-    autor: 'Autor de prueba',
-    desc: 'Esta es una descripción de ejemplo para completar la información y se entienda el contexto del que se habla',
-    content: `
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <img class = 'img' src ="../static/bg_instagram.jpg">
-    `
-  },
-  {
-    id: '0015',
-    type: ['extra'],
-    cover: 'https://picsum.photos/400',
-    title: 'Esta es una noticia de prueba',
-    autor: 'Autor de prueba',
-    desc: 'Esta es una descripción de ejemplo para completar la información y se entienda el contexto del que se habla',
-    content: `
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <img class = 'img' src ="../static/bg_instagram.jpg">
-    `
-  },
-  {
-    id: '0016',
-    type: ['extra'],
-    cover: 'https://picsum.photos/400',
-    title: 'Esta es una noticia de prueba',
-    autor: 'Autor de prueba',
-    desc: 'Esta es una descripción de ejemplo para completar la información y se entienda el contexto del que se habla',
-    content: `
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <img class = 'img' src ="../static/bg_instagram.jpg">
-    `
-  },
-  {
-    id: '0017',
-    type: ['extra'],
-    cover: 'https://picsum.photos/400',
-    title: 'Esta es una noticia de prueba',
-    autor: 'Autor de prueba',
-    desc: 'Esta es una descripción de ejemplo para completar la información y se entienda el contexto del que se habla',
-    content: `
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <img class = 'img' src ="../static/bg_instagram.jpg">
-    `
-  },
-  {
-    id: '0018',
-    type: ['extra'],
-    cover: 'https://picsum.photos/400',
-    title: 'Esta es una noticia de prueba',
-    autor: 'Autor de prueba',
-    desc: 'Esta es una descripción de ejemplo para completar la información y se entienda el contexto del que se habla',
-    content: `
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <p class = "text"></p>
-    <img class = 'img' src ="../static/bg_instagram.jpg">
+    <p class = "text">En estas fotografías, Plasmamos lo que es una interpretación a través de una profesión tan bonita como  la docencia y así darle una enseñanza a lo más importante de la educación, como lo son nuestros educandos.</p>
+    <img class = 'img' src ="../static/nt_011_extra.jpg">
+    <p class = "text">LES PRESENTO A JACINTA, una campesina alegre y tierna que busca darnos un ejemplo de amor por su nacionalidad, EN DONDE a través de cuentos, chistes, rimas y juegos LOS NIÑOS CONOCEN ASPECTOS IMPORTANTES DE  nuestro PAIS y las distintas culturas que tenemos.</p>
+    <p class = "text">Y NI HABLAR DE   nuestros chiquis y docentes que personifican y participan  en ACTIVIDADES PLANEADAS, como EN ESTE CASO la batalla de Boyacá y fundación de Bogotá, PONIENDOLES EL AMOR COMO TOQUE PERSONAL A TODO LO QUE REALIZAn.    </p>
+    <p class = "text">agradecemos a todas aquellas personitas que ponen ese granito de arena para que todos LOGREMOS UN    aprendizaje FELIZ </p>
+    <p class = "text">Espero les haya gustado, con tuitico el amor</p>
     `
   }
 ]

@@ -24,8 +24,8 @@ export const router = (route) => {
     case '#/entretenimiento':
       Sections('entretenimiento')
       break
-    case '#/historia':
-      Sections('historia')
+    case '#/academico':
+      Sections('academico')
       break
     case '#/extra':
       Sections('extra')

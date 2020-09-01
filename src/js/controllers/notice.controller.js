@@ -17,7 +17,15 @@ export const Notice = (content) => {
   createCard(document, '.main-content__notice', data[random(data.length)])
   createCard(document, '.main-content__notice', data[random(data.length)])
   createCard(document, '.main-content__notice', data[random(data.length)])
-  const elements = document.querySelectorAll('[class*="notice"]')
+  for (let name of content.type) {
+    let actual = notice.querySelector('.notice__tags')
+    let tag = document.createElement('li')
+    tag.textContent = name
+    tag.classList.add('notice__tag')
+    tag.classList.add(name)
+    actual.appendChild(tag)
+  }
+  const elements = document.querySelectorAll('[class*="notice"].imp')
   elements.forEach(e => e.addEventListener('click', () => {
     window.location.hash = `#/`
     window.location.hash = `#/notice`
