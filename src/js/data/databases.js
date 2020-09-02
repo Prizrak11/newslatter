@@ -50,10 +50,10 @@ export const data = [
   },
   {
     id: '0004',
-    type: ['entretenimiento', 'academico'],
+    type: ['academico'],
     cover: 'static/nt_004_cover.jpg',
     title: 'La emergencia sanitaria y el cambio en las prácticas estudiantiles',
-    autor: 'Anonimo',
+    autor: 'Sofía Saavedra',
     desc: 'La pandemia es algo que nos afecta a todos, y estar preparados es completamente necesarios, ¿Lo estás tú?',
     content: `
     <p class = "text">Debido a la pandemia por la que estamos pasando, surgieron demasiados cambios,  llegó en un momento donde ningún país estaba preparado para combatir la emergencia sanitaria, por esto mismo se empezaron a buscar diferentes opciones para que lo que hacemos en nuestra cotidianidad lo pudiéramos seguir haciendo  desde nuestro hogar, como estudiar o trabajar, una forma para que esto siguiera su rumbo normal ha sido el  teletrabajo y las   clases virtuales , las cuales fueron adaptadas en demasiadas empresas y colegios ,puesto que es la forma más segura  y práctica en esta situación.</p>
@@ -69,7 +69,7 @@ export const data = [
     type: ['extra', 'academico'],
     cover: '../static/nt_005_cover.jpg',
     title: 'Metodología en el area de español',
-    autor: 'Grado transición',
+    autor: 'Milena Acuña',
     desc: 'Esta es una descripción de ejemplo para completar la información y se entienda el contexto del que se habla',
     content: `
     <p class = "text">En el proceso de enseñanza con los estudiantes del grado transición al inicio de la pandemia, fue la estrategia de realizar dictados diarios de una frase y al mes aumentamos a un párrafo no mayor a 8 renglones, utilizando buena caligrafía,ortografía, manejo de espacios y signos de puntuación, dado que estos temas fueron explicados por la docente; evidenciando avances significativos de comprensión y creación de textos cortos, donde el estudiante lee lo que escribe plasmándolo en un dibujo, generando en ellos la creatividad e imaginación; aprendiendo a escribir y a concentrarse. </p>
@@ -125,7 +125,7 @@ export const data = [
     type: ['ingles'],
     cover: '../static/nt_008_cover.jpg',
     title: 'UFLs (Unidentified Flying Languages)',
-    autor: 'Anonimo',
+    autor: 'Juan Barbosa',
     desc: 'Esta es una descripción de ejemplo para completar la información y se entienda el contexto del que se habla',
     content: `
     <p class = "text">As you know September is coming and with it we have an important celebration. Maybe you are thinking about our Colombian celebration of  “Love and friendship” but we have another celebration more important to this, it is our ENGLISH DAY at our Instituto Mayéutico . This is an important celebration to the school. Through the years this important celebration has showed the process of the foreign language acquisition, in this case, English language. In this year as the others, primary school and secondary school are working shoulder to shoulder answering an important questions nowadays, How to care OUR Colombian environment? It will be interesting because the Mayéutico aware students going to give us some solutions and comments to this question trough variety presentations, videos, reflections, advices, video games, GrenTubers and social media experiences. </p>
@@ -137,8 +137,8 @@ export const data = [
     id: '0009',
     type: ['ingles'],
     cover: '../static/nt_009_cover.jpg',
-    title: 'Bitácora cosmica y tecnológica',
-    autor: 'Miss Karen',
+    title: 'Bitácora cósmica y tecnológica',
+    autor: 'Karen Montaño',
     desc: 'Esta es una descripción de ejemplo para completar la información y se entienda el contexto del que se habla',
     content: `
     <p class = "text">Curiosity is a characteristic of every being who has not let his inner child die, even more so when it has been enjoyed from a children of space of knowledge in science and technology; for this reason today I want to invite you to continue awakening your curiosity through places and virtual spaces in which curiosity gives way to exploration and discovery. Welcome to this cosmic-techno-literary corner.</p>
@@ -180,10 +180,10 @@ export const data = [
   },
   {
     id: '0011',
-    type: ['extra', 'academico'],
+    type: ['extra'],
     cover: '../static/nt_011_cover.jpg',
     title: 'Jacinta en el cole',
-    autor: 'Jacinta mayeutista',
+    autor: 'Patricia Pérez',
     desc: 'Esta es una descripción de ejemplo para completar la información y se entienda el contexto del que se habla',
     content: `
     <p class = "text">En estas fotografías, Plasmamos lo que es una interpretación a través de una profesión tan bonita como  la docencia y así darle una enseñanza a lo más importante de la educación, como lo son nuestros educandos.</p>
