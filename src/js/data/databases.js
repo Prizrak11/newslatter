@@ -23,7 +23,7 @@ export const data = [
     cover: 'static/nt_002_cover.jpeg',
     title: 'La tecnología salvavidas para la educación',
     autor: 'Juan Camilo Lozano Rodríguez',
-    desc: 'La tecnología puede ser nuestra mejor ayuda para aprender de forma practica y creatica, ¿Sabemos su importancia?',
+    desc: 'La tecnología puede ser nuestra mejor ayuda para aprender de forma práctica y creativa, ¿Sabemos su importancia?',
     content: `
     <p class = "text">En tiempos de pandemia la humanidad ha tenido que enfrentar sus miedos y temores, rompiendo sus propios dogmas ante las actuales circunstancias, donde somos vulnerables así tengamos seguros de vida, medicina prepagada, un buen salario, una empresa “consolidada” pero seguimos siendo tan frágiles que un virus nos tiene indefensos.</p>
     <p class = "text">En muchos hogares se ven enfrentados a crear distintos espacios que no solían ser compartidos en casa, como la oficina, colegio, ventas o servicios domiciliarios los cuales no eran muy comunes. Hoy tenemos que hablar forzadamente de teletrabajo y educación virtual, y como la tecnología es nuestra mejor aliada para salir invictos de esta interminable cuarentena haciendo que el tiempo no pierda su valor.</p>
@@ -70,7 +70,7 @@ export const data = [
     cover: '../static/nt_005_cover.jpg',
     title: 'Metodología en el area de español',
     autor: 'Milena Acuña',
-    desc: 'Esta es una descripción de ejemplo para completar la información y se entienda el contexto del que se habla',
+    desc: 'La pedagogía es una de las bases de nuestra sociedad. Por lo tanto, desde la primera infancia y debido a la pandemia hemos organizado diferentes estrategias para alcanzar los logros propuestos durante el año en el Instituto Mayéutico',
     content: `
     <p class = "text">En el proceso de enseñanza con los estudiantes del grado transición al inicio de la pandemia, fue la estrategia de realizar dictados diarios de una frase y al mes aumentamos a un párrafo no mayor a 8 renglones, utilizando buena caligrafía,ortografía, manejo de espacios y signos de puntuación, dado que estos temas fueron explicados por la docente; evidenciando avances significativos de comprensión y creación de textos cortos, donde el estudiante lee lo que escribe plasmándolo en un dibujo, generando en ellos la creatividad e imaginación; aprendiendo a escribir y a concentrarse. </p>
     <p class = "text">Complementando la dinámica de los dictados, se inicio con la actividad de lectura; donde el estudiante escoge alguno de sus dictados y deja la evidencia en video; con el fin de que ellos tengan buen tono de voz, vocalización y comprensión al momento de leer.</p>
@@ -94,7 +94,7 @@ export const data = [
     cover: '../static/nt_006_cover.jpg',
     title: 'Educación física, tiempo libre y cuarentena',
     autor: 'Diana lopez',
-    desc: 'Esta es una descripción de ejemplo para completar la información y se entienda el contexto del que se habla',
+    desc: 'Vivimos en una época en la que el deporte, así como el ejercicio y la vida saludable, se han convertido prácticamente en un mandamiento que se nos repite de forma continua estar entretenidos, De tal manera que los sentidos cobran un valor muy importante',
     content: `
     <p class = "text">Desde inicios de la pandemia nuestras vidas cambiaron, tanto en el ámbito social como en el educativo es por eso que desde inicio de la cuarentena los educadores nos tuvimos que reinventar para poder acceder a los distintos grupos poblacionales, entre los cambios más grandes que se vieron reflejados se encuentra el área de educación física y los proyectos que allí se desarrollan.</p>
     <p class = "text">Es por eso que el colegio Instituto Mayéutico desde la asignatura de educación física y el proyecto tiempo libre ha estado realizando diferentes procesos entre los cuales encontramos actividades acompañadas desde el IDRD (instituto distrital de recreación y deportes) con su programa campamentos juveniles el cual nos ha permitido interactuar de forma virtual con la población estudiantil, en estos espacios se han realizado actividades de coordinación viso manual, coordinación general, creatividad, cultura general entre otros.</p>
@@ -112,7 +112,7 @@ export const data = [
     cover: '../static/nt_007_cover.jpg',
     title: 'La escuela para padres',
     autor: 'Psicología',
-    desc: 'Esta es una descripción de ejemplo para completar la información y se entienda el contexto del que se habla',
+    desc: 'Sabemos que la pandemia puede provocar cambios de ánimo, por eso desde área de psicología se adelanta diferentes actividades para saber controlar emociones y diversos enfrentamientos con el “yo mental” aquí te servirán algunos tips que podrás aplicar',
     content: `
     <p class = "text">La escuela de padres es una herramienta diseñada para generar interacción entre la familia y el colegio, ya que estas dos comunidades están inmersas en los contextos del estudiante y buscan el desarrollo integral del individuo.</p>
     <p class = "text">En este sentido, esta escuela está orientada hacia los padres como lugar de encuentro donde se da el intercambio de experiencias y reflexiones; en el cual se proveen métodos y técnicas para corregir los malos hábitos (autoeducación) y generar herramientas que mejoren la calidad de la educación familiar, contribuyendo así en la crianza y el desarrollo de cada persona.</p>
@@ -128,9 +128,9 @@ export const data = [
     autor: 'Juan Barbosa',
     desc: 'Esta es una descripción de ejemplo para completar la información y se entienda el contexto del que se habla',
     content: `
-    <p class = "text">As you know September is coming and with it we have an important celebration. Maybe you are thinking about our Colombian celebration of  “Love and friendship” but we have another celebration more important to this, it is our ENGLISH DAY at our Instituto Mayéutico . This is an important celebration to the school. Through the years this important celebration has showed the process of the foreign language acquisition, in this case, English language. In this year as the others, primary school and secondary school are working shoulder to shoulder answering an important questions nowadays, How to care OUR Colombian environment? It will be interesting because the Mayéutico aware students going to give us some solutions and comments to this question trough variety presentations, videos, reflections, advices, video games, GrenTubers and social media experiences. </p>
-    <p class = "text">Mayeutico students want inviting you to enjoy this amazing day, how? You are going to learn the significance of the Colombian fauna and flora; sometimes, we as Colombians do not recognize our natural, cultural richness, and even the multilingual richness with the ancestral indigenous culture, taking into account that we are learning English as a foreign language we need to know that in Colombia we have more than twenty indigenous languages. One of the objectives to this English Day is identify that use of English is essential, also the Spanish as maternal language but we HAVE to recognize OUR indigenous native languages. </p>
-    <p class = "text">To finish a trivia time! Do you know… How many oceans are in Colombia? one more difficult question, do you how many natural parks or nature reserves Colombia has? And the last question just for humans, What would you do if some UFOs visit us?</p>
+    <p class = "text">As you know September is coming and with it, we have an important celebration. Maybe you are thinking about our Colombian celebration of “Love and friendship” but we have another celebration more important to this, it is our ENGLISH DAY at our Instituto Mayéutico . This is an important celebration for the school. Through the years this important celebration has shown the process of foreign language acquisition, in this case, the English language. In this year as the others, primary school and secondary school are working shoulder to shoulder answering an important question nowadays, How to care OUR Colombian environment? It will be interesting because the Mayéutico aware students going to give us some solutions and comments to this question trough variety of presentations, videos, reflections, pieces of advice, video games, GrenTubers, and social media experiences. </p>
+    <p class = "text">Mayeutico students want to invite you to enjoy this amazing day, how? You are going to learn the significance of the Colombian fauna and flora; sometimes, we as Colombians do not recognize our natural, cultural richness, and even the multilingual richness with the ancestral indigenous culture, taking into account that we are learning English as a foreign language we need to know that in Colombia we have more than twenty indigenous languages. One of the objectives of this English Day is to identify that use of English is essential, also the Spanish as a maternal language but we HAVE to recognize OUR indigenous native languages</p>
+    <p class = "text">To finish trivia time! Do you know… How many oceans are in Colombia? one more difficult question, do you how many natural parks or nature reserves Colombia has? And the last question just for humans, What would you do if some UFOs visit us?</p>
     `
   },
   {
@@ -168,10 +168,10 @@ export const data = [
     cover: '../static/nt_010_cover.jpg',
     title: 'Un día de nueva normalidad',
     autor: 'Laila Diab',
-    desc: 'Esta es una descripción de ejemplo para completar la información y se entienda el contexto del que se habla',
+    desc: 'Estamos viviendo momentos muy difíciles, en donde la mayoría de las personas están pasando por situaciones complicadas tanto laboral como personal; sin dejar atrás los sentimientos que ha producido el estar encerrado en casa 24/7 desde hace casi 5 meses',
     content: `
     <p class = "text">Esperaba este espacio para escribir y manisfestar inquietudes que muchas veces rondan nuestra mente en el ejercicio de esta nueva normalidad. Nos volvimos personas de costumbres que deben aceptar nuevos cambios, unos significativos como aislarnos del circulo social en el cual compartiamos a diario y que ya era rutina; ahora valoramos más esos momentos que se recuerdan con nostalgia. Muchas veces renegabamos del porque los trancones, porque tantas cosas por hacer, solucionar situaciones del momento como peleas de parejas, el porte de uniforme, eventos propios de cada área; nunca pensamos, ni dimensionamos lo que esta pandemia nos ocasionaria y que veiamos tan lejana como si no nos tocará o si fueramos inmunes y vienen a mi recuerdos de pequeñas discusiones frente a diferentes temas, risas,dejando eso de lado y aprender muchas cosas en el dia a dia donde con gran sorpresa descubrimos talentos y fortalecimos otros. </p>
-    <p class = "text">Me piden que este aun más documentada cuando dicto mis clases, que acompañe a los estudiantes y evidencie dificultades, que atienda y resuelva inquietudes, y aceptar esta nueva normalidad donde se vuelve lo privado, publico; crear nuevas normas en casa para no interferir con la dinámica de casa, el salir  restringuidamente y con unos protocolos de seguridad hace que todo gire y te vuelvas más reacio al cambio. Se extrañan los viajes en trasmilenio, las anécdotas e historias, el sortear las afectaciones de compartir la cancha, los turnos de acompañamiento y otros.</p>
+    <p class = "text">Me piden que este aun más documentada cuando dicto mis clases, que acompañe a los estudiantes y evidencie dificultades, que atienda y resuelva inquietudes, y aceptar esta nueva normalidad donde se vuelve lo privado, publico; crear nuevas normas en casa para no interferir con la dinámica de casa, el salir  restringidamente y con unos protocolos de seguridad hace que todo gire y te vuelvas más reacio al cambio. Se extrañan los viajes en trasmilenio, las anécdotas e historias, el sortear las afectaciones de compartir la cancha, los turnos de acompañamiento y otros.</p>
     <p class = "text">La nueva normalidad es tan dificil de aceptar y comprender cuando lo que era rutina lo extrañas y cuando dejas de ver a tus amigos, de reírte con más frecuencia, recordar eventos que se alcanzaron a  hacer; es cuando buscas por todos los medios de seguir en contacto, de recordar y entender que las cosas surgen por algo. Es momento de seguirnos aceptando y tolerando las diferencias que tenemos desde casa, con nuestra familia donde se valora lo que cada uno hace y evidenciamos que nos volvimos hormigas trabajando  y atendiendo múltiples cosas. Revisando unos documentos encontré recuerdos que evocaron otros donde brotaron sentimientos de nostalgia, alegría y porque no esos debates por el no seguir normas y justificarse por todo.</p>
     <img class = 'img' src ="../static/nt_010_extra.jpg">
     <p class = "text">Es aquí donde hay que aprender a respetar las normas y no acomodarlas para nuestro beneficio según el grado de conveniencia ya que protegernos es indispensable porque se dice popularmente: “los médicos también se mueren” para hacer alusión de la auto protección y son ellos precisamente quienes mayor ejemplo nos dan día a día con la pandemia, no nos cuesta mucho usar adecuadamente el tapabocas, el lavado de manos, etc. Cuidarnos desde casa es la mejor opción para un reencuentro próximo donde se cuenten todas las cosas buenas y malas que aprendimos y que aprendemos diariamente; es modificar y ajustarme a la nueva normalidad.</p>
@@ -184,7 +184,7 @@ export const data = [
     cover: '../static/nt_011_cover.jpg',
     title: 'Jacinta en el cole',
     autor: 'Patricia Pérez',
-    desc: 'Esta es una descripción de ejemplo para completar la información y se entienda el contexto del que se habla',
+    desc: 'Poco a poco las cosas se están “acomodando” y adaptando a la nueva normalidad; sin embargo, no deja de agobiarnos muchas situaciones que día a día hacen que creemos nuevos personajes como JACINTA EN EL COLE',
     content: `
     <p class = "text">En estas fotografías, Plasmamos lo que es una interpretación a través de una profesión tan bonita como  la docencia y así darle una enseñanza a lo más importante de la educación, como lo son nuestros educandos.</p>
     <img class = 'img' src ="../static/nt_011_extra.jpg">
@@ -192,6 +192,80 @@ export const data = [
     <p class = "text">Y NI HABLAR DE   nuestros chiquis y docentes que personifican y participan  en ACTIVIDADES PLANEADAS, como EN ESTE CASO la batalla de Boyacá y fundación de Bogotá, PONIENDOLES EL AMOR COMO TOQUE PERSONAL A TODO LO QUE REALIZAn.    </p>
     <p class = "text">agradecemos a todas aquellas personitas que ponen ese granito de arena para que todos LOGREMOS UN    aprendizaje FELIZ </p>
     <p class = "text">Espero les haya gustado, con tuitico el amor</p>
+    `
+  },
+  {
+    id: '0012',
+    type: ['academico', 'extra'],
+    cover: '../static/nt_012_cover.jpg',
+    title: 'Llegar a la universidad',
+    autor: 'Santiago Giraldo',
+    desc: 'Continuamos con las experiencias que nos brinda el colegio para proyectarnos a futuro desde grado noveno',
+    content: `
+    <p class = "text">Con una gran expectativa el año pasado comenzamos el proceso de articulación con la uniminuto los estudiantes del grado noveno del año 2019, al principio todo comenzó muy bien todos estábamos muy emocionadas por comenzar un nuevo capítulo en nuestras vidas, un capítulo que sabíamos que nos iba a hacer mucho bien a futuro pero también sabíamos que tendríamos que colocar más de nosotros y más de nuestro tiempo ya que estas clases las recibíamos el año pasado los jueves de 2:30 pm a 5:30 pm excepto en vacaciones puesto que la Universidad respetan nuestros horarios de vacaciones.</p>
+    <p class = "text">Aunque todo no es color de rosa al pasar el tiempo tuvimos algunas dificultades y desacuerdos con la Universidad debido a que nosotros empezamos las clases teóricamente temprano, también nos habían dicho sobre el acceso a una plataforma para poder subir todos nuestros trabajos  pero comenzamos el primer módulo y no teníamos habilitado en esta plataforma para la materia que estábamos viendo y por supuesto teníamos que enviar todos los trabajos por el correo pero en la segunda materia ya teníamos la plataforma para poder subir todos los trabajos, fue complicado ya que teníamos que buscar en nuestros correos y muchos de nosotros no sabía muy bien dónde estaban algunos trabajos pero eso no fue un problema por que nos acomodamos a las entregas de los trabajos tanto de la primera materia como de la segunda materia.</p>
+    <p class = "text">Al comenzar la tercera materia ya estábamos acostumbrados a la plataforma, ya sabíamos cómo manejarla y además como poder enviar los trabajos pero en esta materia tuvimos algunos desacuerdos con el profesor de la materia, algunos desacuerdos que llegaron a una solución y  para culminar el primer ciclo  la última materia veíamos prácticamente  dos materias una presencial y otra virtual ya que nosotros  veíamos 5 materias al año pero para nosotros no fue muy complicado por que nos estuvimos adaptando a esto y pudimos entregar todos los trabajos a tiempo y así logramos culminar un ciclo de los primeros pasos hacia nuestro futuro.</p>
+    <p class = "text">Al llegar este año volvimos con grandes expectativas y también veníamos preparados para seguir con nuestro proceso aunque  algunas cosas cambiaron puesto que no todos los que estábamos el año pasado en este proceso pudieron seguir este año. Nosotros comenzamos 32 estudiantes el proceso del año pasado y este año sólo quedamos 24 aunque muchos se salieron los que quedamos estamos esforzándonos para sacar el proceso adelante todos los jueves de 4 pm a 6 pm. Este año empezamos un poco tarde nos hemos sentido muy bien aunque estemos encerrados y no estemos presencialmente ya que a veces se nos  dificulta un poco entender algunos temas pero todos nosotros nos hemos acomodando a esta situación gracias a la pandemia y hemos estado también recibiendo el apoyo de los profesores de la universidad a pesar de todas estas dificultades que se nos han presentado por lo que estamos a puertas de terminar este segundo año de el siguiente paso hacia nuestro futuro.</p>
+    `
+  },
+  {
+    id: '0013',
+    type: ['academico', 'extra'],
+    cover: '../static/nt_013_cover.jpg',
+    title: 'Para verracos nosotros "Tres lecciones que nos dejó la batalla de Boyacá"',
+    autor: 'Eylin Arboleda',
+    desc: 'Esta es una descripción de ejemplo para completar la información y se entienda el contexto del que se habla',
+    content: `
+    <p class = "text">Antes de leer este artículo quiero recordarte que la historia no es una viejita aburrida y a punto de morir, por el contrario es una hermosa joven viajera, que tiene miles de cosas por contar y la batalla de Boyacá es una de ellas</p>
+    <h2 class="subtitle">Así fue la batalla de Boyacá </h2>
+    <p class = "text">La Nueva Granada vivió el 7 de agosto de 1819 uno de los hechos más importantes en todo el proceso de su Independencia. Desde aquel momento, recordamos esta fecha como el día de la Batalla de Boyacá.</p>
+    <p class = "text">Los hechos transcurrieron a la orilla del río Teatinos, a tan solo 110 kilómetros de Santa Fe de Bogotá.  Cuando nuestro ejército patriota bajo el mando de Simón Bolívar, Francisco de Paula Santander y José Antonio Anzoátegui,  demostraron su valentía en un combate que logró la rendición de los españoles, comandados por el coronel José María Barreiro.</p>
+    <p class = "text">El discurso oficial nos narra que la tropa patriota estaba conformada por 2.350 combatientes, entre los que se contaban criollos, mulatos, mestizos, zambos, indígenas y negros. Los cuales  sorprendieron al ejército realista, que contaba con 2.670 hombres, de los cuales 2.300 eran de infantería, 350 de caballería y 20 de artillería. Tremenda desventaja la que teníamos. Pero tranquilos, nuestros soldados eran valientes. </p>
+    <p class = "text">Los que defendían a la corona española iban rumbo a Santa Fe con el ánimo de obtener más refuerzos, luego de ser derrotados en el Pantano de Vargas, el 25 de julio de 1819. Mientras tanto Bolívar trazaba una estrategia que fue fundamental para sellar la gesta libertadora: su plan fue tomar por sorpresa al ejército realista.</p>
+    <img class = 'img' src ="../static/nt_013_extra.jpg">
+    <p class = "text">A fin de cumplir con sus objetivos, los realistas tenían que transitar por el puente del Camino Real (en Boyacá). Los Patriotas intuyeron los movimientos de sus enemigos, y se prepararon para enfrentarlos. Mientras tanto los realistas sin  tener ninguna sospecha avanzaban por Sogamoso, mientras los astutos independistas se les adelantaron y desde Altos de San Lázaro observaban con detenimiento los movimientos de sus enemigos.</p>
+    <p class = "text">En la tarde del 7 de agosto de 1819 la descubierta de los Patriotas descendió del Boquerón de El Tobal y llegó hasta la Casa de Teja, donde tomó por sorpresa a la vanguardia realista, que estaba en su hora de almuerzo. Allí, el general Santander y sus hombres los hicieron retroceder hasta el Puente de Boyacá. Y mientras el resto de los españoles se aproximaba, otro grupo de criollos, comandado por el general Anzoátegui, los interceptó.</p>
+    <p class = "text">Las fuerzas realistas quedaron incomunicadas y separadas por el río Teatinos y la vanguardia patriota. El enfrentamiento dejó como resultado del lado de los realistas: a 100 soldados muertos, 1.600 prisioneros y 150 heridos de gravedad. De parte de los patriotas: 13 perdieron la vida y 53 terminaron heridos.</p>
+    <p class = "text">Las batallas que iniciaron desde el grito de Independencia terminaron ese día en el Puente de Boyacá. Nuestro ejército demostró su verraquera y después de un recorrido de 78 días por más de una veintena de poblaciones, lograron vencer a quienes por 200 años nos habían dominado. Ese 7 de agosto marcó el punto final en las guerras por el territorio colombiano y fijó el triunfo independentista que había iniciado 20 de julio de 1810. Lo ocurrido ese día seguirá siendo celebrado, contado por la señorita historia y conocido generación tras generación para orgullo de todos los colombianos.</p>
+    <h2 class="subtitle">Tres lecciones que nos dejó la batalla de Boyacá</h2>
+    <img class = 'img' src ="../static/nt_013_extra2.jpg">
+    <p class = "text">La historia no solo es para contarla sino para analizarla y aprender de ella. Les comparto tres razones por las que somos verracos:</p>
+    <p class = "text">La primera es que somos valientes: nuestros soldados eran menos y las tropas realista estaban mejor entrenadas, además debido a la larga travesía que implicaba desplazarse para llegar hasta el escenario de la batalla, el ejército patriota se encontraba agotado. Aun así aquellos mestizos, negros, mulatos, indígenas y blancos se enfrentaron valientemente por una causa que los unía, dieron lo mejor de sí y lograron su cometido.  Qué habría pasado si se hubieran dado por vencidos, no lo sé, pero te pregunto ¿estudiante mayeutistas, que pasaría si te atreves a luchar por lo que crees?</p>
+    <p class = "text">Hay que ser verracos para permanecer unidos: Los patriotas que defendieron la libertad tenían diferente aspecto, raza y grupos social, fue difícil para ellos subir el páramo de Pisba, y estoy segura que la convivencia no debió ser nada fácil. Pero lo lograron, se respetaron, se toleraron y permanecieron firmes en su propósito libertador y ya vez ¡lo lograron! En nuestro colegio, casa y comunidad siempre habrá diferencias de pensamiento y de actitudes. Pero si recordamos que todos luchamos para el bien de los nuestros y somos respetuosos tendremos grandes victorias en la vida.</p>
+    <p class = "text">Y por último, todo verraco es constante: Imagínate, que antes de liderar las tropas granadinas Bolívar salió huyendo de Venezuela, porque lo habían derrotado en su intento de liberar su nación. Pero el buen Don Simón aprendió de sus errores, se hizo más valiente y con las tropas granadinas libero no solo a Venezuela sino a cuatro naciones más. La lección es más que clara,  cuando insistes en lo que quieres y trabajas para lograrlo, tarde o temprano podrás ganarlo.</p>
+    `
+  },
+  {
+    id: '0014',
+    type: ['academico', 'extra'],
+    cover: '../static/nt_014_cover.jpg',
+    title: 'Cumpleaños de Bogotá en primaria',
+    autor: 'Lorena Figueroa',
+    desc: 'Así como Jacinta va al cole, también hemos preparado diversas actividades para conocer un poco más sobre la historia y cumpleaños de Bogotá ¿estás seguro de conocer ya todo?',
+    content: `
+    <p class = "text">La historia cuenta que el 6 de agosto de 1538, Gonzalo Jiménez de Quesada logró acabar con la resistencia de las poblaciones indígenas en el territorio de la sabana y ordenó construir doce chozas. Allí el padre fray Domingo de las Casas celebró la primera misa en lo que hoy sería Bogotá.</p>
+    <p class = "text">Bogotá cumple 482 años y la celebración se realizará con el cuidado y protección necesarios en medio de los momentos más difíciles de la pandemia que se está viviendo.</p>
+    <p class = "text">Para conmemorar esta fecha tan importante, los estudiantes de 2° a 5° trabajaron un vídeo alusivo a la fecha, fueron participes de aspectos desconocidos de este momento histórico, realizando como cierre un concurso llamado “Lo que no sabías de Bogotá” en donde los niños escogían un número del 1 al 21 con variedad de preguntas y la primera reacción (Mano arriba) respondía. Se apoyaron de vídeos complementarios para ampliar la información recibida en clase.</p>
+    <p class = "text">Esta actividad se realizó con el fin de incentivar la intercomunicación, en estos espacios nuestros niños desarrollan un conjunto de acciones que facilitan su proceso de enseñanza tales como: formular preguntas de un tema específico, discutir y dar su punto de vista, entre otros.</p>
+    <img class = 'img' src ="../static/nt_014_extra.jpg">
+    <img class = 'img' src ="../static/nt_014_extra2.jpg">
+    `
+  },
+  {
+    id: '0015',
+    type: ['academico', 'extra'],
+    cover: '../static/nt_015_cover.jpg',
+    title: 'Feria empresarial virtual mayeutista',
+    autor: 'Angélica Bayona',
+    desc: 'Estamos convencidos de que lo que separa a los emprendedores exitosos de los que han fracasado es la perseverancia, es aquí donde el Instituto Mayéutico tiene preparado una feria empresarial a la cual todos están cordialmente invitados',
+    content: `
+    <p class = "text">Se inició la segunda Feria Empresarial del instituto Mayéutico promovida por el área de Tecnología y Emprendimiento de nuestra institución a cargo de la Docente Angélica Bayona.</p>
+    <p class = "text">Este Año por causa de la pandemia, realizaremos la feria de forma virtual teniendo en cuenta que es un reto para los estudiantes y emprendedores de nuestra institución. 	El objetivo para este año es mostrar los productos y servicios que están ofreciendo cada empresa con opción de ventas en línea, podrán realizar sus pedidos. Permitiendo la generación de negocio y compra –venta de estos pequeños emprendedores.</p>
+    <p class = "text">Se encontrarán empresas conformadas en sociedad y empresas independientes.</p>
+    <img class = 'img' src ="../static/nt_015_extra.jpg">
+    <p class = "text">En el mes de septiembre se estarán dando a conocer las empresas que harán parte de la feria empresarial por las redes sociales y a mediados de octubre se llevará a cabo la Feria empresarial virtual en donde todos están invitados.</p>
+    <img class = 'img' src ="../static/nt_015_extra2.jpg">
+    <p class = "text">En la segunda semana de octubre se estará realizando un recorrido virtual por ZOOM en donde podrán visitar cada una de las empresas.</p>
     `
   }
 ]
